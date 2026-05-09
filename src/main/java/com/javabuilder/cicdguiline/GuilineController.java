@@ -10,4 +10,10 @@ public class GuilineController {
     public String guiline() {
         return "Continues Integration";
     }
+
+    @GetMapping("/home")
+    public String home() {
+        return "Welcome to JavaBuilder";
+    }
+
 }
