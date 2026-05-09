@@ -11,7 +11,7 @@ public class GuilineController {
         return "Continues Integration";
     }
 
-    @GetMapping("/home")
+    @GetMapping("/index")
     public String home() {
         return "Welcome to JavaBuilder";
     }
