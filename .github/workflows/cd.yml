@@ -6,6 +6,10 @@ on:
       - Continues Integration
     types:
       - completed
+    branches:
+      - main
+      - master
+
 jobs:
   cd-pipeline:
     runs-on: ubuntu-latest
