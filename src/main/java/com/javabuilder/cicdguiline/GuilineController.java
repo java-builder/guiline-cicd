@@ -13,7 +13,7 @@ public class GuilineController {
 
     @GetMapping("/index")
     public String home() {
-        return "Welcome to JavaBuilder";
+        return "Welcome to BackendService";
     }
 
 }
