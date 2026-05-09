@@ -26,4 +26,3 @@ jobs:
 
       - name: Build Maven
         run: mvn clean package -DskipTests
-
